@@ -364,7 +364,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
           </div>
 
           <div class="modal-body">
-            <form class="membership-form webform" role="form">
+<!--             <form class="membership-form webform" role="form">
                 <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
 
                 <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
@@ -380,7 +380,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
                     </label>
                 </div>
-            </form>
+            </form> -->
+		  <form action="action.php" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                            <input type="text" class="form-control" name="cf-name" placeholder="Name">
+
+                            <input type="email" class="form-control" name="cf-email" placeholder="Email">
+
+                            <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea>
+
+                            <button type="Submit" class="form-control" id="submit-button" name="submit">Send Message</button>
+                        </form>
           </div>
 
           <div class="modal-footer"></div>
