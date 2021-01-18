@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
 	
 	$content = $_POST["cf-message"];
 	
-    $to = "rk_ali@outlook.com";
+    $to = "faizanmir74@gmail.com";
     
     $email_subject = "Contact form submission: $name";
     
